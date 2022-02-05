@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
