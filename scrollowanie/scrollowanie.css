@@ -8,8 +8,19 @@ main{
     margin: 0 auto;
 }
 
-button{
+#top{
     background-color: brown;
     color: white;
     padding: 10px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#top.show{
+    opacity: .5;
 }
