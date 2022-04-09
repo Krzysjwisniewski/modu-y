@@ -20,12 +20,49 @@ div{
     /* height: 300px;
     margin: 10px;
     padding: 5px; */
-    border: 2px solid green;
+    border: 1px solid green;
+    height: 100vh;
+    align-content: flex-start;
 }
 
 img{
     width: 150px;
     height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* stretch domyślne */
+
+    height: 100px;
+    background-color: blueviolet;
+}
+
+nav a{
+    background-color: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 10px;
+}
+
+nav a:hover{
+    background-color: blue;
+}
+
+nav a:first-child{
+    border-color: chartreuse;
+}
+
+nav a:nth-child(3){
+    border-color: yellow;
+}
+
+nav a:last-child{
+    border-color: pink;
+    order: -1;
 }
 
 @media (min-width: 320px){ /* małe telefony */
